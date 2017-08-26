@@ -1,0 +1,35 @@
+{
+  "name": "fs-delete-empty",
+  "version": "1.0.0",
+  "description": "add filter dirs params in options  based delete-empty, thank for delete empty....",
+  "main": "index.js",
+  "bin": {
+    "fs-delete-empty": "bin/cli.js"
+  },
+  "dependencies": {
+    "async-each-series": "^1.1.0",
+    "extend-shallow": "^2.0.1",
+    "log-ok": "^0.1.1",
+    "relative": "^3.0.2",
+    "rimraf": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flutesing/fs-delete-empty.git"
+  },
+  "keywords": [
+    "delete-empty",
+    "dir",
+    "filters"
+  ],
+  "author": "flutesing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flutesing/fs-delete-empty/issues"
+  },
+  "homepage": "https://github.com/flutesing/fs-delete-empty#readme"
+}
